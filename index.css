@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('/fonts/digital-7.ttf') format('truetype');
+}
+
+body {
+    background:linear-gradient(#EDF2F4,#FFC8DD);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#container {
+    font-family:"Inter", sans-serif;
+    color:white;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-around;
+    width:500px;
+    height:300px;
+    background-color:#162143;
+}
+
+#home , #guest{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center,space-around;
+    margin-top: 0px;
+}
+
+#homeScoreCard {
+    background-color:black;
+    height:100px;
+    width:150px;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+button {
+    border:2px solid #8D99AE;
+    padding: 10px 10px;
+    margin-top:20px;
+    background-color:#162143;
+    border-radius:5px;
+    color:white;
+}
+
